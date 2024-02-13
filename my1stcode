@@ -1,0 +1,12 @@
+#my first code
+#helloworld
+
+name = "Михой"
+adjective = "классно"
+number = 999
+disney_ride = "Горе Веселья"
+if(input("Введи Парк") == "парк"):
+    print("Я поехал в {0} с {name}.\nЭто было {adjective}.\nМы ждали {hours} часов, чтобы покататься на {ride}."
+      .format("Парк Развлечений", name=name, adjective=adjective, hours=number, ride=disney_ride))
+else:
+    print("пока")
